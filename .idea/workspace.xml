@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance_ZG_B4.iml" afterDir="false" />
+    <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="From school">
+      <change afterPath="$PROJECT_DIR$/src/Ex1_Animals/Camel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex2_Restaurant/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex2_Restaurant/Ex2_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex2_Restaurant/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex2_Restaurant/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_ZG_B4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_ZG_B4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1_Animals/Ex1_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1_Animals/Ex1_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/MainStageEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/MainStageEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/NonMusicEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/NonMusicEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/CompSci30_ZG/Inheritance",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/CompSci30_ZG/Inheritance&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -70,6 +77,14 @@
       <option name="presentableId" value="Default" />
       <updated>1733269064745</updated>
     </task>
+    <task id="LOCAL-00001" summary="From school">
+      <created>1733437452544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733437452544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="From school" />
+    <option name="LAST_COMMIT_MESSAGE" value="From school" />
   </component>
 </project>
