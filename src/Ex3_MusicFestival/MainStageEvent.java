@@ -7,7 +7,7 @@ class MainStageEvent extends Event {
     ArrayList<String> techRequirements; // done this way due to AP
 
     public MainStageEvent(String name, String type) {
-        super(name, type); // super alone is reservered for the superclass constructor call
+        super(name, type); // super alone is reserved for the superclass constructor call
         super.setLocation("Main Stage"); // super.method is a call to the superclasses instance method
 
         techRequirements = new ArrayList<String>();
