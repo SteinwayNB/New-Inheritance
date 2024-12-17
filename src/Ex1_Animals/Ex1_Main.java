@@ -1,6 +1,5 @@
 package Ex1_Animals;
 
-import javax.swing.*;
 import java.util.ArrayList;
 
 public class Ex1_Main {
@@ -13,7 +12,7 @@ public class Ex1_Main {
         allAnimals.add(new Rotweiller( "Rubble" ));
         allAnimals.add( new Shihtzu("Bubbles"));
         allAnimals.add (new  Trout( "Slippery"  ));
-        allAnimals.add(new Camel("Sandy", 4));
+        allAnimals.add(new Camal("Sandy", 4));
 
 //        for (int i = 0; i < allAnimals.size(); i++) {
 ////            System.out.println(allAnimals.get(i));
@@ -32,10 +31,9 @@ public class Ex1_Main {
 
         allAnimals.get(5).talk();
 
-        Animal a = new Rotweiller("Mean old doggy");
+        Animal a = new Rotweiller("Mean old doggie");
+//        Rotweiller b = new Animal("jason was wrong");
         a.talk();
-
-
 
     }
 

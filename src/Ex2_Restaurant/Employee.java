@@ -5,11 +5,10 @@ public abstract class Employee {
     private String SIN;
     protected double taxesCollected;
 
-    public Employee(String n, String s){
+    public Employee (String n, String s){
         name = n;
         SIN = s;
     }
-
 
 
     public void printMe(){
@@ -25,3 +24,4 @@ public abstract class Employee {
         return name;
     }
 }
+
