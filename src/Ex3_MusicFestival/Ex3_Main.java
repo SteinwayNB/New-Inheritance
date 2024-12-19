@@ -11,8 +11,8 @@ public class Ex3_Main {
 
         allEvents.add(new MainStageEvent("Walk off the Earth", "music"));
         allEvents.add(new MainStageEvent("Hemple Temple", "music"));
-        allEvents.add(new MainStageEvent("Sleep", "experimental music"));
-        allEvents.add(new MainStageEvent("John Cage", "pioneer music"));
+        allEvents.add(new MainStageEvent("Sleep", "experimental"));
+        allEvents.add(new MainStageEvent("John Cage", "pioneer"));
         allEvents.add(new MainStageEvent("WWDC", "announcement"));
 
         allEvents.add(new NonMusicEvent("Face Painting Booth", "kids activity", "Tent 4"));
@@ -55,8 +55,10 @@ public class Ex3_Main {
 
             System.out.println("1. Add New Event");
             System.out.println("2. Search for event");
-            System.out.println("3. Choice 3");
+            System.out.println("3. Filter by Type");
             System.out.println("4. exit.");
+            System.out.println("5. Group by Type");
+            System.out.println("6. Search for Main Stage Events");
 
             int choice = input.nextInt();
             input.nextLine();
@@ -82,12 +84,42 @@ public class Ex3_Main {
             } else if (choice == 2) {
                 System.out.println("What is the name of the event?");
                 String inEvent = input.nextLine();
+                for (int i = 0; i < allEvents.size(); i++) {
+                    if(inEvent.equalsIgnoreCase(((allEvents.get(i).getEventName())))){
+                        System.out.println(allEvents.get(i).getEventName()+", Location: "+allEvents.get(i).getLocation()+", Type: "+allEvents.get(i).getEventType());
+//                        ((MainStageEvent)allEvents.get(i)).printTech();
+                        if( allEvents.get(i) instanceof  MainStageEvent    ){
+                            ((MainStageEvent)allEvents.get(i)).printTech();
+                        }
+
+                    }
+                }
 
 
             } else if (choice == 3) {
+                System.out.println("Type in the event type");
+                String inType = input.nextLine();
+                for (int i = 0; i < allEvents.size(); i++) {
+                    if(inType.equalsIgnoreCase(allEvents.get(i).getEventType())){
+                        System.out.println(allEvents.get(i).getEventName()+", Location: "+allEvents.get(i).getLocation());
+                        if( allEvents.get(i) instanceof  MainStageEvent    ){
+                            ((MainStageEvent)allEvents.get(i)).printTech();
+                        }
+                    }
+                }
 
             } else if (choice == 4) {
                 break;
+            } else if(choice == 5){
+
+            } else if (choice == 6){
+//                System.out.println("What Main Stage Event are you looking for?");
+//                String inmainevent = input.nextLine();
+//                for (int i = 0; i < allEvents.size(); i++) {
+//                    if(inmainevent.equalsIgnoreCase((MainStageEvent)allEvents.get(i).getEventName())){
+//
+//                    }
+//                }
             }
 
         } // while loop

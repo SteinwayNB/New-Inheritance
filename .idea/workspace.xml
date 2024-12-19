@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="From school">
-      <change afterPath="$PROJECT_DIR$/src/Ex1_Animals/Camal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/Ex3_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/Others.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/SmallStageEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_ZG_B4/Ex1_Animals/Ex1_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_ZG_B4/Ex1_Animals/Ex1_Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_ZG_B4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_ZG_B4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex3_MusicFestival/Ex3_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/Ex3_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex3_MusicFestival/MainStageEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_MusicFestival/MainStageEvent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734469401863</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="From school">
+      <created>1734473653597</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734473653597</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
