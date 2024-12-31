@@ -56,7 +56,7 @@ public class Ex3_Main {
             System.out.println("1. Add New Event");
             System.out.println("2. Search for event");
             System.out.println("3. Filter by Type");
-            System.out.println("4. exit.");
+            System.out.println("4. Exit");
             System.out.println("5. Group by Type");
             System.out.println("6. Search for Main Stage Events");
 
@@ -111,16 +111,45 @@ public class Ex3_Main {
             } else if (choice == 4) {
                 break;
             } else if(choice == 5){
+                System.out.println("Non-music: ");
+                for (int i = 0; i < allEvents.size(); i++) {
+                    if(!allEvents.get(i).getEventType().equalsIgnoreCase("music")){
+                        System.out.println(allEvents.get(i).getEventName()+", Location: "+allEvents.get(i).getLocation()+", Type: "+allEvents.get(i).getEventType());
+                    }
+                }
+                System.out.println();
+                System.out.println("Main-stage: ");
+                for (int i = 0; i < allEvents.size(); i++) {
+                    if(allEvents.get(i).getLocation().equalsIgnoreCase("main stage")){
+                        System.out.println(allEvents.get(i).getEventName()+", Location: "+allEvents.get(i).getLocation()+", Type: "+allEvents.get(i).getEventType());
+                    }
+                }
+                System.out.println();
+                System.out.println("Small-stage: ");
+                for (int i = 0; i < allEvents.size(); i++) {
+                    if(allEvents.get(i).getLocation().equalsIgnoreCase("small stage") ){
+                        System.out.println(allEvents.get(i).getEventName()+", Location: "+allEvents.get(i).getLocation()+", Type: "+allEvents.get(i).getEventType());
+                    }
+                }
+                System.out.println();
 
-            } else if (choice == 6){
-//                System.out.println("What Main Stage Event are you looking for?");
-//                String inmainevent = input.nextLine();
-//                for (int i = 0; i < allEvents.size(); i++) {
-//                    if(inmainevent.equalsIgnoreCase((MainStageEvent)allEvents.get(i).getEventName())){
-//
-//                    }
-//                }
+            } else if (choice == 6) {
+                System.out.println("What Main Stage Event are you looking for?");
+                String inmainevent = input.nextLine();
+                boolean isfound = false;
+                for (int i = 0; i < allEvents.size(); i++) {
+                    if (inmainevent.equalsIgnoreCase(allEvents.get(i).getEventName())) {
+                        System.out.println("What tech requirement would you like to add");
+                        String tempTec = input.nextLine();
+                        ((MainStageEvent) allEvents.get(i)).addTech(tempTec);
+                        isfound = true;
+                    }
+                }
+                if (isfound == false){
+                    System.out.println("Event not found, please add event first");
+                }
             }
+
 
         } // while loop
 
