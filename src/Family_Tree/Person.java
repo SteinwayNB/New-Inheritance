@@ -20,6 +20,15 @@ public class Person {
         children.add(p);
     }
 
+    public ArrayList<Person> getChildren() {
+        return children;
+    }
 
+    public String getCountry() {
+        return country;
+    }
 
+    public String getName() {
+        return name;
+    }
 }

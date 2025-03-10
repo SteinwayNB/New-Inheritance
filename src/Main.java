@@ -14,6 +14,7 @@ public class Main {
 //        Ex3_Main.run();
 //        Ex1_GolfCard.run();
 //        Ex2_Tic.run();
+        FamilyTree.run();
 
     }
 

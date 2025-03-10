@@ -33,6 +33,9 @@ public class FamilyTree {
         //generation 4
         person1.children.get(1).children.get(1).children.get(1).addChild(new Person("Max","Germany"));
 
+        System.out.println(person1.getName());
+
+
     }//run
 
     public static void printFamily(Person ptemp){
