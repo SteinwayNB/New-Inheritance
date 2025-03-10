@@ -6,6 +6,7 @@ class SmallStageEvent extends Event{
     public SmallStageEvent(String name, String type) {
         super(name, type);
         super.setLocation("Small Stage");
+        this.NumPeople = 5;
     }
 
     public void genre(int g){
