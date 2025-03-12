@@ -33,19 +33,51 @@ public class FamilyTree {
         //generation 4
         person1.children.get(1).children.get(1).children.get(1).addChild(new Person("Max","Germany"));
 
-        System.out.println(person1.getName());
+        printFamily(person1);
+
+
 
 
     }//run
 
-    public static void printFamily(Person ptemp){
-        System.out.println();
-
+    public static void printFamily(Person temp){
+        System.out.print(temp.getName() +" has children: ");
+        for (int i = 0; i < temp.getChildren().size(); i++) {
+            System.out.print(temp.getChildren().get(i).getName() + ", ");
+        }
+        for (int i = 0; i < temp.getChildren().size(); i++) {
+            System.out.println();
+            System.out.print(temp.children.get(i).getName() + " has children: ");
+            for (int j = 0; j < temp.children.get(i).children.size(); j++) {
+                System.out.print(temp.getChildren().get(i).children.get(j).getName() + ", ");
+            }
+        }
+        for (int i = 0; i < temp.getChildren().size(); i++) {
+            for (int j = 0; j < temp.children.get(i).children.size(); j++) {
+                System.out.println();
+                System.out.print(temp.getChildren().get(i).children.get(j).getName() + " has children: ");
+                for (int k = 0; k < temp.children.get(i).children.get(j).children.size(); k++) {
+                    System.out.print(temp.children.get(i).children.get(j).children.get(k).getName() + ", ");
+                }
+            }
+        }
+        for (int i = 0; i < temp.getChildren().size(); i++) {
+            for (int j = 0; j < temp.children.get(i).children.size(); j++) {
+                for (int k = 0; k < temp.children.get(i).children.get(j).children.size(); k++) {
+                    System.out.println();
+                    System.out.print(temp.getChildren().get(i).children.get(j).children.get(k).getName() + " has children: ");
+                    for (int l = 0; l < temp.children.get(i).children.get(j).children.get(k).children.size(); l++) {
+                        System.out.print(temp.children.get(i).children.get(j).children.get(k).children.get(l).getName() + ", ");
+                    }
+                }
+            }
+        }
 
     }
 
     public static int countFamily(Person pTemp){
         int num = 0;
+
         return num;
     }
 
