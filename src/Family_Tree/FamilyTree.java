@@ -34,6 +34,8 @@ public class FamilyTree {
         person1.children.get(1).children.get(1).children.get(1).addChild(new Person("Max","Germany"));
 
         printFamily(person1);
+        System.out.println();
+        countFamily(person1);
 
 
 
