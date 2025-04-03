@@ -1,3 +1,4 @@
+import Advanced_String_Methods_Assignment.As1_Main;
 import Ex1_Animals.Ex1_Main;
 import Ex2_Restaurant.Ex2_Main;
 import Ex3_MusicFestival.Ex3_Main;
@@ -14,7 +15,7 @@ public class Main {
 //        Ex3_Main.run();
 //        Ex1_GolfCard.run();
 //        Ex2_Tic.run();
-        FamilyTree.run();
+//        FamilyTree.run();
 
     }
 
