@@ -8,6 +8,7 @@ public class As1_Message {
 
     public As1_Message(String s){
         int position = 0;
+        String temp = "";
         for (int i = 0; i < s.length(); i++) {
             if(s.charAt(i) == ':'){
                 position = i;
@@ -15,7 +16,18 @@ public class As1_Message {
         }
         machineId = s.substring(position-1, position);
         machineType = s.substring(0, position-1);
-        warning = s.substring(position, s.length());
+
+
+
+
+        String[] a = s.substring(position+1, s.length()).split(" ");
+        for (int i = 0; i < a.length; i++) {
+            temp += a[i];
+        }
+
+
+        warning = temp;
+
 
 
     }
