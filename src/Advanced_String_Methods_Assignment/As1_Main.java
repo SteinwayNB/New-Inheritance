@@ -51,6 +51,12 @@ public class As1_Main {
             } else if (option == 3) {
                 System.out.println("Enter the error message");
                 String inerror = input.nextLine();
+                for (int i = 0; i < allMessages.size(); i++) {
+                    if(allMessages.get(i).scanWarning(inerror)){
+                        System.out.print(allMessages.get(i).getMachineType()+"___"+allMessages.get(i).getMachineId()+"___"+allMessages.get(i).getWarning());
+                        System.out.println();
+                    }
+                }
 
 
             } else if (option == 4) {

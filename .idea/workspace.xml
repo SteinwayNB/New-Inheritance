@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="From school">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_ZG_B4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_ZG_B4/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Advanced_String_Methods_Assignment/As1_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advanced_String_Methods_Assignment/As1_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Advanced_String_Methods_Assignment/As1_Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advanced_String_Methods_Assignment/As1_Message.java" afterDir="false" />
     </list>
@@ -33,7 +32,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/SteinwayNB/Inheritance-school&quot;,
+    &quot;url&quot;: &quot;https://github.com/SteinwayNB/New-Inheritance&quot;,
     &quot;accountId&quot;: &quot;6eed0f52-a569-4126-aeec-702fb2d6ff85&quot;
   }
 }</component>
@@ -170,7 +169,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743714981872</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="From school">
+      <option name="closed" value="true" />
+      <created>1744060054611</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744060054612</updated>
+    </task>
+    <task id="LOCAL-00011" summary="From school">
+      <option name="closed" value="true" />
+      <created>1744060086770</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744060086770</updated>
+    </task>
+    <task id="LOCAL-00012" summary="From school">
+      <option name="closed" value="true" />
+      <created>1744060216883</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744060216883</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
